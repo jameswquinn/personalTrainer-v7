@@ -1,12 +1,13 @@
 /** @jsx h */
-import { h, Component, render } from "preact";
+import { h, Component, render, Fragment } from "preact";
 
 class App extends Component {
     render() {
         return (
-            <div id="root">
-                <h1>Hello world</h1>
-            </div>
+            <Fragment>
+                <span>Hello</span> 
+                <span>world!</span>
+            </Fragment>
         );
     }
 }
